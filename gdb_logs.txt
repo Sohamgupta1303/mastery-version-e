@@ -1,0 +1,11 @@
+(gdb) show commands
+    2  q
+    3  run testcases/basic_add.s
+    4  q
+    5  run testcases/basic_add.s
+    6  bt
+    7  print *head
+    8  run testcases/basic_add.s
+    9  print *head
+   10  q
+   11  show commands

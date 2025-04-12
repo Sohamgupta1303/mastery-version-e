@@ -49,11 +49,12 @@ int calculate_result(struct Reader *reader) {
             }
             new_token->next = val_b->next;
             new_token->tok_type = TOK_NUM;
+            head = new_token;
             free(val_a);
             free(val_b);
             free(op);
-            free(head);
-            head = new_token;
+           // free(head);
+            
         }
         advance(reader);
     }

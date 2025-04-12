@@ -1,0 +1,500 @@
+   27  make clean
+   28  make
+   29  make clean
+   30  make debug
+   31  gdb bin/a.out
+   32  make clean
+   33  make
+   34  ./bin/a.out -t testcases/short1.rep
+   35  make clean
+   36  make
+   37  ./bin/a.out -t testcases/short1.rep
+   38  make clean
+   39  make
+   40  ./bin/a.out -t testcases/short1.rep
+   41  make clean
+   42  make
+   43  ./bin/a.out -t testcases/short1.rep
+   44  make clean
+   45  make
+   46  ./bin/a.out -t testcases/short1.rep
+   47  make clean
+   48  make
+   49  ./bin/a.out -t testcases/short1.rep
+   50  make clean
+   51  make comp
+   52  make clean
+   53  make comp
+   54  make
+   55  gdb bin/test-se
+   56  gdb bin/se
+   57  make clean
+   58  make debug
+   59  git pull
+   60  git status
+   61  git commit -a -m msg
+   62  git push
+   63  git pull
+   64  git status
+   65  git pull origin
+   66  git pull
+   67  git config pull.rebase false
+   68  git pull
+   69  git config pull.rebase false
+   70  git pull
+   71  git status
+   72  git clone git@github.com:CS429-SP2025/se-lab-nickhil-soham.git
+   73  clear 
+   74  make clean
+   75  make 
+   76  se
+   77  make week2
+   78  test-se
+   79  test-se -h
+   80  bin/test-se
+   81  bin/se-ref
+   82  se-ref
+   83  cd pipe
+   84  cd src
+   85  cd pipe
+   86  make se
+   87  make test
+   88  make depend
+   89  make clean
+   90  make all
+   91  cd //
+   92  cd..
+   93  cd ..
+   94  r -i testcases/alu/pipeminus/adds
+   95  gdb bin/test-se
+   96  clear
+   97  make clean
+   98  make debug
+   99  make 
+  100  bin/test-se -w2
+  101  gdb bin/test-se -w2
+  102  gdb bin/test-se
+  103  q
+  104  gdb bin/se
+  105  clelar
+  106  clear
+  107  make clean
+  108  make
+  109  bin/test-ser
+  110  bin/test-se
+  111  ./testbench/test-se.o
+  112  bin/test-se -w2
+  113  bin/se
+  114  bin/se -i testcases/alu/pipeminus/adds
+  115  bin/se -i testcases/alu/pipeminus/adds
+  116  bin/se -i testcases/alu/pipeminus/adds -v 2
+  117  gdb bin/se
+  118  gdb bin/se
+  119  bin/se-ref-wk2
+  120  bin/se-ref-wk2 -v 3 -i testcases/basics/add.s
+  121  make clean
+  122  make wk 2
+  123  make week2
+  124  bin/se-ref-wk2 -v 3 -i testcases/basics/add.s
+  125  bin/se-ref-we
+  126  bin/se-ref
+  127  ./bin/se
+  128  ./bin/se -i testcases/basics/add
+  129  ./bin/se-ref-wk2 -i testcases/basics/add
+  130  ./bin/se-ref-wk2 -v 3 -i testcases/basics/add
+  131  ./bin/se -v 3 -i testcases/basics/add
+  132  ./bin/se-ref-wk2 -v 3 -i testcases/basics/add
+  133  ./bin/se -v 3 -i testcases/basics/add
+  134  ./bin/se -v 3 -i testcases/basics/add.s
+  135  ./bin/se-ref-wk2 -v 3 -i testcases/basics/add.s
+  136  ./bin/se-ref-wk2 -v 3 -i testcases/basics/add
+  137  ./bin/se-ref-wk2 -v 3 -i testcases/basics/add
+  138  ./bin/se -v 3 -i testcases/basics/add.s
+  139  ./bin/se -v 3 -i testcases/basics/add
+  140  make clean
+  141  make
+  142  ./bin/se -v 3 -i testcases/basics/add
+  143  ./bin/se -v 3 -i testcases/basics/add
+  144  make clean
+  145  make 
+  146  ./bin/se -v 3 -i testcases/basics/basic
+  147  make clean
+  148  make
+  149  ./bin/se -v 3 -i testcases/basics/basic
+  150  gdb bin/se
+  151  make clean
+  152  make 
+  153  ./bin/se -v 3 -i testcases/basics/basic
+  154  ./bin/se -v 3 -i testcases/basics/basic
+  155  ./bin/se-ref -v 3 -i testcases/basics/add
+  156  ./bin/se-ref-wk2 -v 3 -i testcases/basics/add
+  157  ./bin/se-ref-wk2 -v 3 -i testcases/basics/basic
+  158  ./bin/se -v 3 -i testcases/basics/basic
+  159  ./bin/se-ref-wk2 -v 3 -i testcases/basics/basic
+  160  make clean
+  161  make all
+  162  make
+  163  ./bin/se -v 3 -i testcases/basics/basic
+  164  bin/se
+  165  gdb bin/se
+  166  ./bin/se -v 3 -i testcases/basics/basic
+  167  make
+  168  makemake clean
+  169  make clean
+  170  make
+  171  make clean
+  172  make
+  173  ./bin/se -v 3 -i testcases/basics/add > logs.txt
+  174  ./bin/se -v 3 -i testcases/basics/basic
+  175  make clean
+  176  make all
+  177  make
+  178  ./bin/se -v 3 -i testcases/basics/add
+  179  make clea
+  180  make clean
+  181  make
+  182  ./bin/se -v 3 -i testcases/basics/add
+  183  make clean
+  184  make 
+  185  ./bin/se -v 3 -i testcases/basics/add
+  186  ./bin/se -v 3 -i testcases/basics/add
+  187  ./bin/se -v 3 -i testcases/basics/add
+  188  make clean
+  189  make
+  190  ./bin/se -v 3 -i testcases/basics/add
+  191  ./bin/se -v 3 -i testcases/basics/basic
+  192  gdb bin/se
+  193  make clean
+  194  make
+  195  gdb bin/se
+  196  gdb bin/se
+  197  make clean
+  198  make
+  199  make clean
+  200  make
+  201  make clean
+  202  make
+  203  gdb bin/se
+  204  ./bin/se -v 3 -i testcases/basics/basic
+  205  make
+  206  make clean
+  207  make 
+  208  ./bin/se -v 3 -i testcases/basics/add
+  209  git clone git@github.com:CS429-SP2025/se-lab-nickhil-soham.git
+  210  mkdir prac
+  211  mkdir labprac
+  212  cd labprac
+  213  git clone git@github.com:CS429-SP2025/se-lab-nickhil-soham.git
+  214  make clean
+  215  make wk2
+  216  make week12
+  217  make week2
+  218  make week2
+  219  make clean
+  220  make week2
+  221  ./bin/test-se -w3 -v 3
+  222  ./bin/test-se -w2 -v 3
+  223  make week2
+  224  ./bin/test-se -w2 -v 3
+  225  clear
+  226  make week2
+  227  ./bin/test-se -w2 -v 3
+  228  make week2
+  229  ./bin/test-se -w2 -v 3
+  230  make clean
+  231  make
+  232  ./bin/se -v 3 -i testcases/basics/add
+  233  bin/se
+  234  bin/se -t testcases
+  235  bin/test-se-wk2 v 3
+  236  bin/test-se -w2 v 3
+  237  bin/test-se -w2 -v 3
+  238  make clean
+  239  make
+  240  bin/test-se -w2 -v 3
+  241  make week2
+  242  bin/test-se -w2 -v 3
+  243  make week2
+  244  make week2
+  245  bin/test-se -w2 -v 3
+  246  bin/se -t testcases/exceptions/pipeminus/bad_mem_1
+  247  bin/se -i testcases/exceptions/pipeminus/bad_mem_1
+  248  gdb bin/se
+  249  gdb bin/se
+  250  make week2
+  251  bin/test-se -w2 -v 3
+  252  make week2
+  253  bin/test-se -w2 -v 3
+  254  make week2
+  255  bin/test-se -w2 -v 3
+  256  make week2
+  257  bin/test-se -w2 -v 3
+  258  make week2
+  259  bin/test-se -w2 -v 3
+  260  make week2
+  261  bin/test-se -w2 -v 3
+  262  bin/se-ref -i testcases/exceptions/pipeminus/bad_mem_1
+  263  bin/se-ref-wk2 -i testcases/exceptions/pipeminus/bad_mem_1
+  264  bin/se-ref-wk2 -i testcases/exceptions/pipeminus/bad_mem_1 -v 3
+  265  bin/test-se -w2 -i testcases/exceptions/pipeminus/bad_mem_1 -v 3
+  266  bin/test-se -i testcases/exceptions/pipeminus/bad_mem_1 -v 3
+  267  bin/test-se -w2 -v 3
+  268  gdb bin/se
+  269  ./bin/se-ref-wk2 -i ./testcases/exceptions/pipeminus/bad_mem_2 >output_ref -v 3
+  270  ./bin/se -i ./testcases/exceptions/pipeminus/bad_mem_2 >output -v 3
+  271  code --diff output output_ref make week2
+  272  code --diff output output_ref make week2
+  273  make week2
+  274  bin/test-se -w2 -v 3
+  275  make week2
+  276  bin/test-se -w2 -v 3
+  277  make week2
+  278  bin/test-se -w2 -v 3
+  279  git commit -a -m ms
+  280  git push
+  281  git commit -a -m msh
+  282  git push
+  283  git pull
+  284  make week2
+  285  bin/test-se -w2 -v 3
+  286  git push
+  287  git commit -a -m ms
+  288  git push
+  289  make week2
+  290  bin/test-se -w 2 -v 3 > logs.txt
+  291  bin/test-se -w 2 -v 1 > logs.txt
+  292  make week2
+  293  bin/test-se -w 2 -v 1 > logs.txt
+  294  make week2
+  295  bin/test-se -w 2 -v 1 > logs.txt
+  296  make week2
+  297  bin/test-se -w 2 -v 1 > logs.txt
+  298  make week2
+  299  bin/test-se -w 2 -v 1 > logs.txt
+  300  make week2
+  301  bin/test-se -w 2 -v 1 > logs.txt
+  302  make week2
+  303  make week2
+  304  bin/test-se -w 2 -v 1 > logs.txt
+  305  make week2
+  306  bin/test-se -w 2 -v 1 > logs.txt
+  307  make week2
+  308  bin/test-se -w 2 -v 1 > logs.txt
+  309  make week2
+  310  make week2
+  311  bin/test-se -w2 -v 3
+  312  make week2
+  313  make week2
+  314  make week2
+  315  bin/test-se -w2 -v 3
+  316  make week2
+  317  bin/test-se -w2 -v 3
+  318  make week2
+  319  bin/test-se -w2 -v 3
+  320  make week2
+  321  bin/test-se -w2 -v 3
+  322  make week2
+  323  bin/test-se -w2 -v 3
+  324  make week2
+  325  bin/test-se -w2 -v 3
+  326  make week2
+  327  bin/test-se -w2 -v 3
+  328  make week2
+  329  bin/test-se -w2 -v 3
+  330  bin/test-se -w2 -v 3
+  331  make week2
+  332  make week2
+  333  bin/test-se -w2 -v 3
+  334  make week2
+  335  bin/test-se -w2 -v 3
+  336  clear
+  337  make week2
+  338  bin/test-se -w2 -v 3
+  339  make week2
+  340  bin/test-se -w2 -v 3
+  341  make week2
+  342  bin/test-se -w2 -v 3
+  343  make week2
+  344  bin/test-se -w2 -v 3
+  345  clear
+  346  make week2
+  347  bin/test-se -w2 -v 3
+  348  make week2
+  349  bin/test-se -w2 -v 3
+  350  touch ~/.gdbinit
+  351  echo "set history save on" > ~/.gdbinit
+  352  cat ~/.gdbinit
+  353  git clone git@github.com:Sohamgupta1303/master-version-a.git
+  354  make clean
+  355  make all
+  356  make 
+  357  mini_ci
+  358  mini_ci testcases/basic_add.s
+  359  make check
+  360  gdb mini_ci
+  361  make debug
+  362  make clean
+  363  make debug
+  364  gdb mini_ci
+  365  make clean
+  366  make check
+  367  make clean
+  368  make check
+  369  make clean
+  370  make check
+  371  make clean
+  372  make
+  373  make check
+  374  gdb mini_ci
+  375  make claen
+  376  make clean
+  377  make
+  378  gdb mini_ci
+  379  make clean
+  380  make check
+  381  mini_ci_reference testcases/basic_add.s
+  382  mini_ci_reference testcases/err_ops2.s
+  383  make check
+  384  clear
+  385  make clean
+  386  make
+  387  make check 
+  388  gdb mini_ci
+  389  make clean
+  390  make debug
+  391  gdb mini_ci
+  392  make clean
+  393  make
+  394  make check
+  395  mini_ci_reference testcases/err_ops.s
+  396  clear
+  397  make clean
+  398  make check
+  399  CLEAR
+  400  clear 
+  401  make clean
+  402  make
+  403  make check
+  404  clear
+  405  make clean
+  406  make check
+  407  clear
+  408  make clean
+  409  make
+  410  make check
+  411  make clean
+  412  make
+  413  make check
+  414  gdb mini_ci
+  415  make clean
+  416  make debug
+  417  gdb mini_ci
+  418  gdb mini_ci
+  419  mini_ci testcases/err_ops.s
+  420  gdb mini_ci
+  421  make clan
+  422  make clean
+  423  make
+  424  gdb mini_ci
+  425  make clean
+  426  make debug
+  427  gdb mini_ci
+  428  make clean
+  429  make
+  430  make check
+  431  gdb mini_ci
+  432  make clean
+  433  make debug
+  434  gdb mini_ci
+  435  make clean
+  436  make
+  437  make chec
+  438  make check
+  439  touch ~/.gdbinit
+  440  echo "set history save on" > ~/.gdbinit
+  441  cat ~/.gdbinit
+  442  git clone git@github.com:Sohamgupta1303/mastery-version-c.git
+  443  make clean
+  444  make
+  445  make check
+  446  gdb mini_ci
+  447  make clean
+  448  make debug
+  449  gdb mini_ci
+  450  make clean
+  451  make
+  452  make check
+  453  gdb mini_ci
+  454  make clean
+  455  make debug
+  456  gdb mini_ci
+  457  make clean
+  458  make check
+  459  make debug
+  460  make clean
+  461  make debug
+  462  gdb mini_ci
+  463  y
+  464  mini_ci testcases/multi_op_err.s
+  465  mini_ci_reference testcases/multi_op_err.s
+  466  clear
+  467  make clean
+  468  make check
+  469  mini_ci
+  470  gdb mini_ci
+  471  mini_ci_reference testcases/multi_op3.s
+  472  make check
+  473  mini_ci_reference testcases/basic_add.s
+  474  mini_ci testcases/basic_add.s
+  475  make clean
+  476  make
+  477  mini_ci testcases/basic_add.s
+  478  gdb mini_ci
+  479  make clean
+  480  make debug
+  481  gdb mini_ci
+  482  make clean
+  483  mini_ci testcases/basic_add.s
+  484  make clean
+  485  make
+  486  mini_ci testcases/basic_add.s
+  487  make check
+  488  history
+  489  history > shell_logs.txt
+  490  gdb mini_ci
+  491  y
+  492  touch gdb_logs.txt
+  493  git add .
+  494  git commit -a -m msg
+  495  git status
+  496  git push
+  497  touch ~/.gdbinit
+  498  echo "set history save on" > ~/.gdbinit
+  499  cat ~/.gdbinit
+  500  git clone git@github.com:Sohamgupta1303/mastery-version-e.git
+  501  make clean
+  502  make
+  503  make check
+  504  mini_ci testcases/basic_add.s
+  505  gdb mini_ci
+  506  make clean
+  507  make debug
+  508  gdb mini_ci
+  509  make clean
+  510  make check
+  511  mini_ci_reference testcases/basic_add.s
+  512  estcases/basic_div.s
+  513  testcases/basic_add.s
+  514  mini_ci_reference testcases/basic_div.s
+  515  mini_ci testcases/basic_div.s
+  516  make check
+  517  gdb mini_ci
+  518  make clean
+  519  make debug
+  520  gdb mini_ci
+  521  make clean
+  522  make check
+  523  make clean
+  524  make debug
+  525  make check
+  526  history > shell_logs.txt
